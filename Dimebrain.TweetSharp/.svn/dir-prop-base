@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 73
+bin
+obj
+[Bb]in
+[Dd]ebug
+[Rr]elease
+*.user
+*.aps
+*.eto
+*.pidb
+*.userprefs
+
+END

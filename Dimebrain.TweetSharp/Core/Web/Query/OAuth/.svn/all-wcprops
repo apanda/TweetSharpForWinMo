@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/Query/OAuth
+END
+OAuthWebQueryInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/Query/OAuth/OAuthWebQueryInfo.cs
+END
+OAuthWebQueryClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/Query/OAuth/OAuthWebQueryClient.cs
+END
+OAuthWebQuery.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/Query/OAuth/OAuthWebQuery.cs
+END

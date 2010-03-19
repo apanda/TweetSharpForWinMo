@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/DirectMessages/Destroy
+END
+TwitterDirectMessagesDestroy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/DirectMessages/Destroy/TwitterDirectMessagesDestroy.cs
+END
+Extensions.Methods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/DirectMessages/Destroy/Extensions.Methods.cs
+END
+ITwitterDirectMessagesDestroy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/DirectMessages/Destroy/ITwitterDirectMessagesDestroy.cs
+END

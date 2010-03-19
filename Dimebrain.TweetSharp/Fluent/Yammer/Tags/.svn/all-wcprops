@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Tags
+END
+IYammerTags.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Tags/IYammerTags.cs
+END
+YammerTags.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Tags/YammerTags.cs
+END
+YammerTagsExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Tags/YammerTagsExtensions.cs
+END

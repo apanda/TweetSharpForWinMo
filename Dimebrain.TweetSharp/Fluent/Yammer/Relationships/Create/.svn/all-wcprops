@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Relationships/Create
+END
+YammerRelationshipCreate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Relationships/Create/YammerRelationshipCreate.cs
+END
+IYammerRelationshipCreate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Relationships/Create/IYammerRelationshipCreate.cs
+END

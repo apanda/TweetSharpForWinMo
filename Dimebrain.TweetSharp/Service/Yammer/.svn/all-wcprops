@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Yammer
+END
+YammerService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Yammer/YammerService.cs
+END
+YammerService.Rest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Yammer/YammerService.Rest.cs
+END

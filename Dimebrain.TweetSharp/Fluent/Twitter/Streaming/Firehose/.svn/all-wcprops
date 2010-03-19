@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Streaming/Firehose
+END
+TwitterStreamingFirehose.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Streaming/Firehose/TwitterStreamingFirehose.cs
+END
+Extensions.Parameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Streaming/Firehose/Extensions.Parameters.cs
+END
+Extensions.Options.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Streaming/Firehose/Extensions.Options.cs
+END
+ITwitterStreamingFirehose.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Streaming/Firehose/ITwitterStreamingFirehose.cs
+END

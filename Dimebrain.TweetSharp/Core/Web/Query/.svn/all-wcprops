@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/Query
+END
+WebQueryBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/Query/WebQueryBase.cs
+END
+WebQueryResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/Query/WebQueryResult.cs
+END
+IWebQueryInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/Query/IWebQueryInfo.cs
+END

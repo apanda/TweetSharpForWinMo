@@ -1,0 +1,6 @@
+D:\code\tweetsharp-ro\src\net35\Dimebrain.TweetSharp.Silverlight\Bin\Debug\TweetSharp.dll
+D:\code\tweetsharp-ro\src\net35\Dimebrain.TweetSharp.Silverlight\Bin\Debug\TweetSharp.pdb
+D:\code\tweetsharp-ro\src\net35\Dimebrain.TweetSharp.Silverlight\Bin\Debug\Newtonsoft.Json.Silverlight.dll
+D:\code\tweetsharp-ro\src\net35\Dimebrain.TweetSharp.Silverlight\obj\Debug\ResolveAssemblyReference.cache
+D:\code\tweetsharp-ro\src\net35\Dimebrain.TweetSharp.Silverlight\obj\Debug\TweetSharp.dll
+D:\code\tweetsharp-ro\src\net35\Dimebrain.TweetSharp.Silverlight\obj\Debug\TweetSharp.pdb

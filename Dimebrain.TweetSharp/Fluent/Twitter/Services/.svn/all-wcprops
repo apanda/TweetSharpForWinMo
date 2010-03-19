@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Services
+END
+SendPhotoServiceProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Services/SendPhotoServiceProvider.cs
+END
+ShortenUrlServiceProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Services/ShortenUrlServiceProvider.cs
+END
+SendPhotoService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Services/SendPhotoService.cs
+END
+ShortenUrlService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Services/ShortenUrlService.cs
+END

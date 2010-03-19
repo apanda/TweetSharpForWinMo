@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/509/trunk/lib
+END
+System.ComponentModel.Composition.dll
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/345/trunk/lib/System.ComponentModel.Composition.dll
+END
+nunit.framework.dll
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/lib/nunit.framework.dll
+END
+Newtonsoft.Json.Silverlight.dll
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/509/trunk/lib/Newtonsoft.Json.Silverlight.dll
+END
+Enyim.Caching.dll
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/lib/Enyim.Caching.dll
+END
+Newtonsoft.Json.dll
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/509/trunk/lib/Newtonsoft.Json.dll
+END
+Newtonsoft.Json.Compact.dll
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/509/trunk/lib/Newtonsoft.Json.Compact.dll
+END

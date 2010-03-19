@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/638/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter
+END
+IFluentTwitterParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/IFluentTwitterParameters.cs
+END
+TwitterWebCallback.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/TwitterWebCallback.cs
+END
+TwitterClientInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/TwitterClientInfo.cs
+END
+FluentTwitterStreamingParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/FluentTwitterStreamingParameters.cs
+END
+FluentTwitter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/FluentTwitter.cs
+END
+Extensions.Root.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/638/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Extensions.Root.cs
+END
+ITwitterNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterNode.cs
+END
+FluentTwitterTrendsParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/FluentTwitterTrendsParameters.cs
+END
+ITwitterLeafNodeXmlJson.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterLeafNodeXmlJson.cs
+END
+RetweetMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/RetweetMode.cs
+END
+Extensions.Objects.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Extensions.Objects.cs
+END
+IFluentTwitterStreamingParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/IFluentTwitterStreamingParameters.cs
+END
+IFluentTwitter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/IFluentTwitter.cs
+END
+ITwitterLeafNodeAtom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterLeafNodeAtom.cs
+END
+ITwitterLeafNodeXml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterLeafNodeXml.cs
+END
+FluentTwitterSearchParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/FluentTwitterSearchParameters.cs
+END
+TwitterLeafNodeBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/TwitterLeafNodeBase.cs
+END
+IFluentTwitterTrendsParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/IFluentTwitterTrendsParameters.cs
+END
+ITwitterLeafNodeSyndicates.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterLeafNodeSyndicates.cs
+END
+FluentTwitterProfile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/FluentTwitterProfile.cs
+END
+ITwitterLeafNodeRss.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterLeafNodeRss.cs
+END
+ITwitterLeafNodeAll.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterLeafNodeAll.cs
+END
+ITwitterLeafNodeJson.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterLeafNodeJson.cs
+END
+TwitterNodeBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/TwitterNodeBase.cs
+END
+IFluentTwitterSearchParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/IFluentTwitterSearchParameters.cs
+END
+FluentTwitterParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/FluentTwitterParameters.cs
+END
+ITwitterLeafNodeXmlJsonAtom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterLeafNodeXmlJsonAtom.cs
+END
+ITwitterLeafNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/ITwitterLeafNode.cs
+END
+IFluentTwitterProfile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/IFluentTwitterProfile.cs
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp.Silverlight/Core/Web
+END
+WebQueryClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp.Silverlight/Core/Web/WebQueryClient.cs
+END
+OpenReadCompletedEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp.Silverlight/Core/Web/OpenReadCompletedEventArgs.cs
+END

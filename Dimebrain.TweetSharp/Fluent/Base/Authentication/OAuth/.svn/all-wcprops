@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/Authentication/OAuth
+END
+IFluentBaseOAuth.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/Authentication/OAuth/IFluentBaseOAuth.cs
+END
+FluentBaseOAuth.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/Authentication/OAuth/FluentBaseOAuth.cs
+END

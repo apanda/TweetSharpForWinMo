@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/Converters
+END
+YammerConverterBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/Converters/YammerConverterBase.cs
+END
+YammerDateConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/Converters/YammerDateConverter.cs
+END
+YammerXmlNodeConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/Converters/YammerXmlNodeConverter.cs
+END

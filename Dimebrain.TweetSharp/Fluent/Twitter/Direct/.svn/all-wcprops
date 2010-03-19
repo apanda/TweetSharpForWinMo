@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Direct
+END
+FluentTwitterDirect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Direct/FluentTwitterDirect.cs
+END
+IFluentTwitterDirect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Direct/IFluentTwitterDirect.cs
+END
+IFluentTwitterDirectExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Direct/IFluentTwitterDirectExtensions.cs
+END

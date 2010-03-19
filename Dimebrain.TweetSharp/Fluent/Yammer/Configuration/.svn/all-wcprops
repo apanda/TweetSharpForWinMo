@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Configuration
+END
+FluentYammerConfiguration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Configuration/FluentYammerConfiguration.cs
+END
+FluentYammerConfigurationExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Configuration/FluentYammerConfigurationExtensions.cs
+END
+IFluentYammerConfiguration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Configuration/IFluentYammerConfiguration.cs
+END

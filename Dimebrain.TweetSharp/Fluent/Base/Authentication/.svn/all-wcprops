@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/Authentication
+END
+IAuthenticator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/Authentication/IAuthenticator.cs
+END
+AuthenticationMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/Authentication/AuthenticationMode.cs
+END
+IFluentAuthentication.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/Authentication/IFluentAuthentication.cs
+END

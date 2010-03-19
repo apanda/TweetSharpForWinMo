@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Groups/Update
+END
+YammerGroupsUpdate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Groups/Update/YammerGroupsUpdate.cs
+END
+IYammerGroupsUpdate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Groups/Update/IYammerGroupsUpdate.cs
+END
+IYammerGroupsUpdateExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Groups/Update/IYammerGroupsUpdateExtensions.cs
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Core/Web
+END
+IWebQueryClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/IWebQueryClient.cs
+END
+WebQueryRequestEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebQueryRequestEventArgs.cs
+END
+WebCredentials.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebCredentials.cs
+END
+WebParameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebParameter.cs
+END
+WebMethod.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebMethod.cs
+END
+WebOperation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebOperation.cs
+END
+WebQueryResponseEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebQueryResponseEventArgs.cs
+END
+WebPlatform.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebPlatform.cs
+END
+WebQueryClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebQueryClient.cs
+END
+HttpPostParameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/HttpPostParameter.cs
+END
+WebFormat.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebFormat.cs
+END
+HttpPostParameterType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/HttpPostParameterType.cs
+END
+WebParameterCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebParameterCollection.cs
+END
+WebCallback.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Web/WebCallback.cs
+END

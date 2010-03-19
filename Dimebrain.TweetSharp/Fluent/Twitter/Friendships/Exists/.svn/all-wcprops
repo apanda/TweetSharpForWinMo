@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Friendships/Exists
+END
+Extensions.Required.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Friendships/Exists/Extensions.Required.cs
+END
+TwitterFriendshipsExists.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Friendships/Exists/TwitterFriendshipsExists.cs
+END
+ITwitterFriendshipsExists.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Friendships/Exists/ITwitterFriendshipsExists.cs
+END

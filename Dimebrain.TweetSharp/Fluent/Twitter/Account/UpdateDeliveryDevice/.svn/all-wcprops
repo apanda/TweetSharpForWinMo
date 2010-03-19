@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Account/UpdateDeliveryDevice
+END
+ITwitterAccountUpdateDeliveryDevice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Account/UpdateDeliveryDevice/ITwitterAccountUpdateDeliveryDevice.cs
+END
+TwitterAccountUpdateDeliveryDevice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Account/UpdateDeliveryDevice/TwitterAccountUpdateDeliveryDevice.cs
+END

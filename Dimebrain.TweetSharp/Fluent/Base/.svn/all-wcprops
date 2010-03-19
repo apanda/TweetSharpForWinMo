@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base
+END
+IFluentNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/IFluentNode.cs
+END
+IFluentBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/IFluentBase.cs
+END
+IClientInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/IClientInfo.cs
+END
+FluentBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Base/FluentBase.cs
+END

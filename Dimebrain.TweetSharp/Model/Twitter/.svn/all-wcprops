@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter
+END
+TwitterSavedSearch.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterSavedSearch.cs
+END
+TwitterError.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterError.cs
+END
+TwitterFriendship.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterFriendship.cs
+END
+TwitterDateTime.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterDateTime.cs
+END
+_Model.cd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/_Model.cd
+END
+TwitterRateLimitStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterRateLimitStatus.cs
+END
+TwitterRelationship.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterRelationship.cs
+END
+TwitterSearchTrend.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterSearchTrend.cs
+END
+TwitterDeliveryDevice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterDeliveryDevice.cs
+END
+TwitterSearchResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterSearchResult.cs
+END
+TwitterFriend.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterFriend.cs
+END
+ITwitterModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/ITwitterModel.cs
+END
+TwitterSearchStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterSearchStatus.cs
+END
+TwitterLocalTrends.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterLocalTrends.cs
+END
+TwitterList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterList.cs
+END
+TwitterResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterResult.cs
+END
+TwitterUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterUser.cs
+END
+TwitterDirectMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterDirectMessage.cs
+END
+TwitterStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterStatus.cs
+END
+TwitterSearchTrends.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterSearchTrends.cs
+END
+ITwitterEntity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/ITwitterEntity.cs
+END
+TwitterDateFormat.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterDateFormat.cs
+END
+TwitterLocalTrend.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Twitter/TwitterLocalTrend.cs
+END

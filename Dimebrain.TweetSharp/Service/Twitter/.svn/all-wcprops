@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter
+END
+TwitterService.Streaming.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter/TwitterService.Streaming.cs
+END
+TwitterCursorList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter/TwitterCursorList.cs
+END
+TwitterStreamResultEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter/TwitterStreamResultEventArgs.cs
+END
+TwitterService.Rest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter/TwitterService.Rest.cs
+END
+TwitterFilterStreamOptions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter/TwitterFilterStreamOptions.cs
+END
+TwitterService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter/TwitterService.cs
+END
+TwitterServiceExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter/TwitterServiceExtensions.cs
+END
+TwitterSearchOptions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter/TwitterSearchOptions.cs
+END
+TwitterService.Search.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Service/Twitter/TwitterService.Search.cs
+END

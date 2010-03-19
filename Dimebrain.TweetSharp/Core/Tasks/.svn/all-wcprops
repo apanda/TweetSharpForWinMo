@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Tasks
+END
+ITimedTask.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Tasks/ITimedTask.cs
+END
+RateLimitingRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Tasks/RateLimitingRule.cs
+END
+TimedTaskCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Tasks/TimedTaskCollection.cs
+END
+TimedTask.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Tasks/TimedTask.cs
+END
+IRateLimitingRule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Tasks/IRateLimitingRule.cs
+END
+RateLimitedTimedTask.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Tasks/RateLimitedTimedTask.cs
+END

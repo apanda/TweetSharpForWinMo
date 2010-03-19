@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer
+END
+IYammerLeafNodeXmlJson.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/IYammerLeafNodeXmlJson.cs
+END
+Extensions.Root.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Extensions.Root.cs
+END
+IFluentYammer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/IFluentYammer.cs
+END
+IYammerLeafNodeXml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/IYammerLeafNodeXml.cs
+END
+YammerLeafNodeBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/YammerLeafNodeBase.cs
+END
+Extensions.Objects.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Extensions.Objects.cs
+END
+IYammerLeafNodeAll.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/IYammerLeafNodeAll.cs
+END
+YammerNodeBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/YammerNodeBase.cs
+END
+IYammerLeafNodeJson.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/IYammerLeafNodeJson.cs
+END
+FluentYammerParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/FluentYammerParameters.cs
+END
+Extensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Extensions.cs
+END
+IYammerLeafNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/IYammerLeafNode.cs
+END
+YammerWebCallback.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/YammerWebCallback.cs
+END
+IFluentYammerParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/IFluentYammerParameters.cs
+END
+YammerClientInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/YammerClientInfo.cs
+END
+FluentYammer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/FluentYammer.cs
+END
+IYammerNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/IYammerNode.cs
+END

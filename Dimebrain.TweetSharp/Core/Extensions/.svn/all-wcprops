@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/635/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions
+END
+CollectionExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/CollectionExtensions.cs
+END
+WebExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/WebExtensions.cs
+END
+ColorExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/ColorExtensions.cs
+END
+FileExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/FileExtensions.cs
+END
+OAuthExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/OAuthExtensions.cs
+END
+StringExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/635/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/StringExtensions.cs
+END
+FormatExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/FormatExtensions.cs
+END
+MathExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/MathExtensions.cs
+END
+JsonExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/JsonExtensions.cs
+END
+ReflectionExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/ReflectionExtensions.cs
+END
+RegexExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Extensions/RegexExtensions.cs
+END

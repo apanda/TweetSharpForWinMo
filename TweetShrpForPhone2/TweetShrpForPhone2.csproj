@@ -1,0 +1,1312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1170283-3CEC-4CA4-9C57-E1D426989D69}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TweetShrpForPhone2</RootNamespace>
+    <AssemblyName>TweetShrpForPhone2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT; SILVERLIGHT4</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT; SILVERLIGHT4</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json.Silverlight">
+      <HintPath>..\lib\Newtonsoft.Json.Silverlight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Dimebrain.TweetSharp.Silverlight\Core\ThreadPriority.cs">
+      <Link>Core\ThreadPriority.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp.Silverlight\Core\Web\OpenReadCompletedEventArgs.cs">
+      <Link>Core\Web\OpenReadCompletedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp.Silverlight\Core\Web\Query\OAuth\OAuthWebQueryClient.cs">
+      <Link>Core\Web\Query\OAuth\OAuthWebQueryClient.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp.Silverlight\Core\Web\WebQueryClient.cs">
+      <Link>Core\Web\WebQueryClient.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Attributes\AuthenticationScheme.cs">
+      <Link>Core\Attributes\AuthenticationScheme.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Attributes\CharacterLimitAttribute.cs">
+      <Link>Core\Attributes\CharacterLimitAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Attributes\HeaderAttribute.cs">
+      <Link>Core\Attributes\HeaderAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Attributes\NamedAttribute.cs">
+      <Link>Core\Attributes\NamedAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Attributes\ParameterAttribute.cs">
+      <Link>Core\Attributes\ParameterAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Attributes\RequiresApiKeyAttribute.cs">
+      <Link>Core\Attributes\RequiresApiKeyAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Attributes\RequiresAuthenticationAttribute.cs">
+      <Link>Core\Attributes\RequiresAuthenticationAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Attributes\UserAgentAttribute.cs">
+      <Link>Core\Attributes\UserAgentAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Caching\CacheFactory.cs">
+      <Link>Core\Caching\CacheFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Caching\IClientCache.cs">
+      <Link>Core\Caching\IClientCache.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Caching\SimpleCache.cs">
+      <Link>Core\Caching\SimpleCache.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Configuration\Bootstrapper.cs">
+      <Link>Core\Configuration\Bootstrapper.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\CollectionExtensions.cs">
+      <Link>Core\Extensions\CollectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\ColorExtensions.cs">
+      <Link>Core\Extensions\ColorExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\FileExtensions.cs">
+      <Link>Core\Extensions\FileExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\FormatExtensions.cs">
+      <Link>Core\Extensions\FormatExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\JsonExtensions.cs">
+      <Link>Core\Extensions\JsonExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\MathExtensions.cs">
+      <Link>Core\Extensions\MathExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\OAuthExtensions.cs">
+      <Link>Core\Extensions\OAuthExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\ReflectionExtensions.cs">
+      <Link>Core\Extensions\ReflectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\RegexExtensions.cs">
+      <Link>Core\Extensions\RegexExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\StringExtensions.cs">
+      <Link>Core\Extensions\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Extensions\WebExtensions.cs">
+      <Link>Core\Extensions\WebExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\OAuth\OAuthParameterHandling.cs">
+      <Link>Core\OAuth\OAuthParameterHandling.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\OAuth\OAuthSignatureMethod.cs">
+      <Link>Core\OAuth\OAuthSignatureMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\OAuth\OAuthTools.cs">
+      <Link>Core\OAuth\OAuthTools.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Pair.cs">
+      <Link>Core\Pair.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Tasks\IRateLimitingRule.cs">
+      <Link>Core\Tasks\IRateLimitingRule.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Tasks\ITimedTask.cs">
+      <Link>Core\Tasks\ITimedTask.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Tasks\RateLimitedTimedTask.cs">
+      <Link>Core\Tasks\RateLimitedTimedTask.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Tasks\RateLimitingRule.cs">
+      <Link>Core\Tasks\RateLimitingRule.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Tasks\TimedTask.cs">
+      <Link>Core\Tasks\TimedTask.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Tasks\TimedTaskCollection.cs">
+      <Link>Core\Tasks\TimedTaskCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Triplet.cs">
+      <Link>Core\Triplet.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\HttpPostParameter.cs">
+      <Link>Core\Web\HttpPostParameter.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\HttpPostParameterType.cs">
+      <Link>Core\Web\HttpPostParameterType.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\IWebQueryClient.cs">
+      <Link>Core\Web\IWebQueryClient.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\OAuth\OAuthWorkflow.Base.cs">
+      <Link>Core\Web\OAuth\OAuthWorkflow.Base.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\OAuth\OAuthWorkflow.Methods.cs">
+      <Link>Core\Web\OAuth\OAuthWorkflow.Methods.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\OAuth\OAuthWorkflow.Urls.cs">
+      <Link>Core\Web\OAuth\OAuthWorkflow.Urls.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\Query\Basic\BasicAuthWebQuery.cs">
+      <Link>Core\Web\Query\Basic\BasicAuthWebQuery.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\Query\IWebQueryInfo.cs">
+      <Link>Core\Web\Query\IWebQueryInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\Query\OAuth\OAuthWebQuery.cs">
+      <Link>Core\Web\Query\OAuth\OAuthWebQuery.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\Query\OAuth\OAuthWebQueryInfo.cs">
+      <Link>Core\Web\Query\OAuth\OAuthWebQueryInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\Query\WebQueryBase.cs">
+      <Link>Core\Web\Query\WebQueryBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\Query\WebQueryResult.cs">
+      <Link>Core\Web\Query\WebQueryResult.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebCallback.cs">
+      <Link>Core\Web\WebCallback.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebCredentials.cs">
+      <Link>Core\Web\WebCredentials.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebFormat.cs">
+      <Link>Core\Web\WebFormat.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebMethod.cs">
+      <Link>Core\Web\WebMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebOperation.cs">
+      <Link>Core\Web\WebOperation.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebParameter.cs">
+      <Link>Core\Web\WebParameter.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebParameterCollection.cs">
+      <Link>Core\Web\WebParameterCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebPlatform.cs">
+      <Link>Core\Web\WebPlatform.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebQueryRequestEventArgs.cs">
+      <Link>Core\Web\WebQueryRequestEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Core\Web\WebQueryResponseEventArgs.cs">
+      <Link>Core\Web\WebQueryResponseEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\data\twitter\TwitterDataTools.cs">
+      <Link>Data\Twitter\TwitterDataTools.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Extensions\GeoExtensions.cs">
+      <Link>Extensions\GeoExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Extensions\TimeExtensions.cs">
+      <Link>Extensions\TimeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Extensions\TimeExtensions.Relative.cs">
+      <Link>Extensions\TimeExtensions.Relative.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Extensions\TwitterExtensions.Filters.cs">
+      <Link>Extensions\TwitterExtensions.Filters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Extensions\TwitterExtensions.Json.cs">
+      <Link>Extensions\TwitterExtensions.Json.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Extensions\TwitterExtensions.Model.cs">
+      <Link>Extensions\TwitterExtensions.Model.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\Authentication\AuthenticationMode.cs">
+      <Link>Fluent\Base\Authentication\AuthenticationMode.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\Authentication\Basic\FluentBaseBasicAuth.cs">
+      <Link>Fluent\Base\Authentication\Basic\FluentBaseBasicAuth.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\Authentication\Basic\IFluentBaseBasicAuth.cs">
+      <Link>Fluent\Base\Authentication\Basic\IFluentBaseBasicAuth.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\Authentication\IAuthenticator.cs">
+      <Link>Fluent\Base\Authentication\IAuthenticator.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\Authentication\IFluentAuthentication.cs">
+      <Link>Fluent\Base\Authentication\IFluentAuthentication.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\Authentication\OAuth\FluentBaseOAuth.cs">
+      <Link>Fluent\Base\Authentication\OAuth\FluentBaseOAuth.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\Authentication\OAuth\IFluentBaseOAuth.cs">
+      <Link>Fluent\Base\Authentication\OAuth\IFluentBaseOAuth.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\FluentBase.cs">
+      <Link>Fluent\Base\FluentBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\IClientInfo.cs">
+      <Link>Fluent\Base\IClientInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\IFluentBase.cs">
+      <Link>Fluent\Base\IFluentBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Base\IFluentNode.cs">
+      <Link>Fluent\Base\IFluentNode.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\endsession\ITwitterAccountEndSession.cs">
+      <Link>Fluent\Twitter\Account\EndSession\ITwitterAccountEndSession.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\endsession\TwitterAccountEndSession.cs">
+      <Link>Fluent\Twitter\Account\EndSession\TwitterAccountEndSession.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\ITwitterAccount.cs">
+      <Link>Fluent\Twitter\Account\ITwitterAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\ITwitterAccountExtensions.cs">
+      <Link>Fluent\Twitter\Account\ITwitterAccountExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\ratelimitstatus\ITwitterAccountRateLimitStatus.cs">
+      <Link>Fluent\Twitter\Account\RateLimitStatus\ITwitterAccountRateLimitStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\ratelimitstatus\TwitterAccountRateLimitStatus.cs">
+      <Link>Fluent\Twitter\Account\RateLimitStatus\TwitterAccountRateLimitStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\TwitterAccount.cs">
+      <Link>Fluent\Twitter\Account\TwitterAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updatedeliverydevice\ITwitterAccountUpdateDeliveryDevice.cs">
+      <Link>Fluent\Twitter\Account\UpdateDeliveryDevice\ITwitterAccountUpdateDeliveryDevice.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updatedeliverydevice\TwitterAccountUpdateDeliveryDevice.cs">
+      <Link>Fluent\Twitter\Account\UpdateDeliveryDevice\TwitterAccountUpdateDeliveryDevice.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updatelocation\ITwitterAccountUpdateLocation.cs">
+      <Link>Fluent\Twitter\Account\UpdateLocation\ITwitterAccountUpdateLocation.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updatelocation\TwitterAccountUpdateLocation.cs">
+      <Link>Fluent\Twitter\Account\UpdateLocation\TwitterAccountUpdateLocation.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofilebackgroundimage\ITwitterAccountsUpdateProfileImage.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfileBackgroundImage\ITwitterAccountsUpdateProfileImage.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofilebackgroundimage\TwitterAccountsUpdateProfileImage.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfileBackgroundImage\TwitterAccountsUpdateProfileImage.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofilecolors\Extensions.Parameters.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfileColors\Extensions.Parameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofilecolors\ITwitterAccountUpdateProfileColors.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfileColors\ITwitterAccountUpdateProfileColors.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofilecolors\TwitterAccountUpdateProfileColors.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfileColors\TwitterAccountUpdateProfileColors.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofileimage\ITwitterAccountUpdateProfileImage.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfileImage\ITwitterAccountUpdateProfileImage.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofileimage\TwitterAccountUpdateProfileImage.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfileImage\TwitterAccountUpdateProfileImage.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofile\Extensions.Parameters.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfile\Extensions.Parameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofile\ITwitterAccountUpdateProfile.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfile\ITwitterAccountUpdateProfile.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\updateprofile\TwitterAccountUpdateProfile.cs">
+      <Link>Fluent\Twitter\Account\UpdateProfile\TwitterAccountUpdateProfile.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\verifycredentials\ITwitterAccountVerifyCredentials.cs">
+      <Link>Fluent\Twitter\Account\VerifyCredentials\ITwitterAccountVerifyCredentials.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\account\verifycredentials\TwitterAccountVerifyCredentials.cs">
+      <Link>Fluent\Twitter\Account\VerifyCredentials\TwitterAccountVerifyCredentials.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\authentication\basic\FluentTwitterBasicAuth.cs">
+      <Link>Fluent\Twitter\Authentication\Basic\FluentTwitterBasicAuth.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\authentication\basic\IFluentTwitterBasicAuth.cs">
+      <Link>Fluent\Twitter\Authentication\Basic\IFluentTwitterBasicAuth.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\authentication\Extensions.cs">
+      <Link>Fluent\Twitter\Authentication\Extensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\authentication\FluentTwitterAuthentication.cs">
+      <Link>Fluent\Twitter\Authentication\FluentTwitterAuthentication.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\authentication\IFluentTwitterAuthentication.cs">
+      <Link>Fluent\Twitter\Authentication\IFluentTwitterAuthentication.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\authentication\oauth\FluentTwitterOAuth.cs">
+      <Link>Fluent\Twitter\Authentication\OAuth\FluentTwitterOAuth.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\authentication\oauth\IFluentTwitterOAuth.cs">
+      <Link>Fluent\Twitter\Authentication\OAuth\IFluentTwitterOAuth.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\blocks\create\ITwitterBlocksCreate.cs">
+      <Link>Fluent\Twitter\Blocks\Create\ITwitterBlocksCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\blocks\create\TwitterBlocksCreate.cs">
+      <Link>Fluent\Twitter\Blocks\Create\TwitterBlocksCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\blocks\destroy\ITwitterBlocksDestroy.cs">
+      <Link>Fluent\Twitter\Blocks\Destroy\ITwitterBlocksDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\blocks\destroy\TwitterBlocksDestroy.cs">
+      <Link>Fluent\Twitter\Blocks\Destroy\TwitterBlocksDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Blocks\Exists\ITwitterBlocksExists.cs">
+      <Link>Fluent\Twitter\Blocks\Exists\ITwitterBlocksExists.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Blocks\Exists\TwitterBlocksExists.cs">
+      <Link>Fluent\Twitter\Blocks\Exists\TwitterBlocksExists.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\blocks\ITwitterBlocks.cs">
+      <Link>Fluent\Twitter\Blocks\ITwitterBlocks.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\blocks\ITwitterBlocksExtensions.cs">
+      <Link>Fluent\Twitter\Blocks\ITwitterBlocksExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Blocks\List\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Blocks\List\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Blocks\List\ITwitterBlocksList.cs">
+      <Link>Fluent\Twitter\Blocks\List\ITwitterBlocksList.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Blocks\List\ITwitterBlocksListIds.cs">
+      <Link>Fluent\Twitter\Blocks\List\ITwitterBlocksListIds.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Blocks\List\TwitterBlocksList.cs">
+      <Link>Fluent\Twitter\Blocks\List\TwitterBlocksList.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Blocks\List\TwitterBlocksListIds.cs">
+      <Link>Fluent\Twitter\Blocks\List\TwitterBlocksListIds.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\blocks\TwitterBlocks.cs">
+      <Link>Fluent\Twitter\Blocks\TwitterBlocks.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\configuration\Extensions.cs">
+      <Link>Fluent\Twitter\Configuration\Extensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\configuration\FluentTwitterConfiguration.cs">
+      <Link>Fluent\Twitter\Configuration\FluentTwitterConfiguration.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\configuration\IFluentTwitterConfiguration.cs">
+      <Link>Fluent\Twitter\Configuration\IFluentTwitterConfiguration.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Configuration\RetryOn.cs">
+      <Link>Fluent\Twitter\Configuration\RetryOn.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\destroy\Extensions.Methods.cs">
+      <Link>Fluent\Twitter\DirectMessages\Destroy\Extensions.Methods.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\destroy\ITwitterDirectMessagesDestroy.cs">
+      <Link>Fluent\Twitter\DirectMessages\Destroy\ITwitterDirectMessagesDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\destroy\TwitterDirectMessagesDestroy.cs">
+      <Link>Fluent\Twitter\DirectMessages\Destroy\TwitterDirectMessagesDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\ITwitterDirectMessages.cs">
+      <Link>Fluent\Twitter\DirectMessages\ITwitterDirectMessages.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\ITwitterDirectMessagesExtensions.cs">
+      <Link>Fluent\Twitter\DirectMessages\ITwitterDirectMessagesExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\new\ITwitterDirectMessagesNew.cs">
+      <Link>Fluent\Twitter\DirectMessages\New\ITwitterDirectMessagesNew.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\new\TwitterDirectMessagesNew.cs">
+      <Link>Fluent\Twitter\DirectMessages\New\TwitterDirectMessagesNew.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\received\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\DirectMessages\Received\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\received\ITwitterDirectMessagesReceived.cs">
+      <Link>Fluent\Twitter\DirectMessages\Received\ITwitterDirectMessagesReceived.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\received\TwitterDirectMessagesReceived.cs">
+      <Link>Fluent\Twitter\DirectMessages\Received\TwitterDirectMessagesReceived.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\sent\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\DirectMessages\Sent\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\sent\ITwitterDirectMessagesSent.cs">
+      <Link>Fluent\Twitter\DirectMessages\Sent\ITwitterDirectMessagesSent.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\sent\TwitterDirectMessagesSent.cs">
+      <Link>Fluent\Twitter\DirectMessages\Sent\TwitterDirectMessagesSent.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\directmessages\TwitterDirectMessages.cs">
+      <Link>Fluent\Twitter\DirectMessages\TwitterDirectMessages.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\direct\FluentTwitterDirect.cs">
+      <Link>Fluent\Twitter\Direct\FluentTwitterDirect.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\direct\IFluentTwitterDirect.cs">
+      <Link>Fluent\Twitter\Direct\IFluentTwitterDirect.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\direct\IFluentTwitterDirectExtensions.cs">
+      <Link>Fluent\Twitter\Direct\IFluentTwitterDirectExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\Extensions.Objects.cs">
+      <Link>Fluent\Twitter\Extensions.Objects.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\Extensions.Root.cs">
+      <Link>Fluent\Twitter\Extensions.Root.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\create\ITwitterFavoritesCreate.cs">
+      <Link>Fluent\Twitter\Favorites\Create\ITwitterFavoritesCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\create\TwitterFavoritesCreate.cs">
+      <Link>Fluent\Twitter\Favorites\Create\TwitterFavoritesCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\destroy\ITwitterFavoritesDestroy.cs">
+      <Link>Fluent\Twitter\Favorites\Destroy\ITwitterFavoritesDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\destroy\TwitterFavoritesDestroy.cs">
+      <Link>Fluent\Twitter\Favorites\Destroy\TwitterFavoritesDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\get\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Favorites\Get\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\get\ITwitterFavoritesGet.cs">
+      <Link>Fluent\Twitter\Favorites\Get\ITwitterFavoritesGet.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\get\TwitterFavoritesGet.cs">
+      <Link>Fluent\Twitter\Favorites\Get\TwitterFavoritesGet.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\ITwitterFavorites.cs">
+      <Link>Fluent\Twitter\Favorites\ITwitterFavorites.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\ITwitterFavoritesExtensions.cs">
+      <Link>Fluent\Twitter\Favorites\ITwitterFavoritesExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\favorites\TwitterFavorites.cs">
+      <Link>Fluent\Twitter\Favorites\TwitterFavorites.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\FluentTwitter.cs">
+      <Link>Fluent\Twitter\FluentTwitter.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\FluentTwitterParameters.cs">
+      <Link>Fluent\Twitter\FluentTwitterParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\FluentTwitterProfile.cs">
+      <Link>Fluent\Twitter\FluentTwitterProfile.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\FluentTwitterSearchParameters.cs">
+      <Link>Fluent\Twitter\FluentTwitterSearchParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\FluentTwitterStreamingParameters.cs">
+      <Link>Fluent\Twitter\FluentTwitterStreamingParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\FluentTwitterTrendsParameters.cs">
+      <Link>Fluent\Twitter\FluentTwitterTrendsParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\create\Extensions.Optional.cs">
+      <Link>Fluent\Twitter\Friendships\Create\Extensions.Optional.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\create\ITwitterFriendshipsCreate.cs">
+      <Link>Fluent\Twitter\Friendships\Create\ITwitterFriendshipsCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\create\TwitterFriendshipsCreate.cs">
+      <Link>Fluent\Twitter\Friendships\Create\TwitterFriendshipsCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\destroy\Extensions.Methods.cs">
+      <Link>Fluent\Twitter\Friendships\Destroy\Extensions.Methods.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\destroy\ITwitterFriendshipsDestroy.cs">
+      <Link>Fluent\Twitter\Friendships\Destroy\ITwitterFriendshipsDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\destroy\TwitterFriendshipsDestroy.cs">
+      <Link>Fluent\Twitter\Friendships\Destroy\TwitterFriendshipsDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\exists\Extensions.Required.cs">
+      <Link>Fluent\Twitter\Friendships\Exists\Extensions.Required.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\exists\ITwitterFriendshipsExists.cs">
+      <Link>Fluent\Twitter\Friendships\Exists\ITwitterFriendshipsExists.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\exists\TwitterFriendshipsExists.cs">
+      <Link>Fluent\Twitter\Friendships\Exists\TwitterFriendshipsExists.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\ITwitterFriendships.cs">
+      <Link>Fluent\Twitter\Friendships\ITwitterFriendships.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\ITwitterFriendshipsExtensions.cs">
+      <Link>Fluent\Twitter\Friendships\ITwitterFriendshipsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\show\Extensions.Required.cs">
+      <Link>Fluent\Twitter\Friendships\Show\Extensions.Required.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\show\ITwitterFriendshipsShow.cs">
+      <Link>Fluent\Twitter\Friendships\Show\ITwitterFriendshipsShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\show\TwitterFriendshipsShow.cs">
+      <Link>Fluent\Twitter\Friendships\Show\TwitterFriendshipsShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\friendships\TwitterFriendships.cs">
+      <Link>Fluent\Twitter\Friendships\TwitterFriendships.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\help\downtimeschedule\ITwitterHelpDowntimeSchedule.cs">
+      <Link>Fluent\Twitter\Help\DowntimeSchedule\ITwitterHelpDowntimeSchedule.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\help\downtimeschedule\TwitterHelpDowntimeSchedule.cs">
+      <Link>Fluent\Twitter\Help\DowntimeSchedule\TwitterHelpDowntimeSchedule.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\help\ITwitterHelp.cs">
+      <Link>Fluent\Twitter\Help\ITwitterHelp.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\help\ITwitterHelpExtensions.cs">
+      <Link>Fluent\Twitter\Help\ITwitterHelpExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\help\test\ITwitterHelpTest.cs">
+      <Link>Fluent\Twitter\Help\Test\ITwitterHelpTest.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\help\test\TwitterHelpTest.cs">
+      <Link>Fluent\Twitter\Help\Test\TwitterHelpTest.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\help\TwitterHelp.cs">
+      <Link>Fluent\Twitter\Help\TwitterHelp.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\IFluentTwitter.cs">
+      <Link>Fluent\Twitter\IFluentTwitter.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\IFluentTwitterParameters.cs">
+      <Link>Fluent\Twitter\IFluentTwitterParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\IFluentTwitterProfile.cs">
+      <Link>Fluent\Twitter\IFluentTwitterProfile.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\IFluentTwitterSearchParameters.cs">
+      <Link>Fluent\Twitter\IFluentTwitterSearchParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\IFluentTwitterStreamingParameters.cs">
+      <Link>Fluent\Twitter\IFluentTwitterStreamingParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\IFluentTwitterTrendsParameters.cs">
+      <Link>Fluent\Twitter\IFluentTwitterTrendsParameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\ITwitterLeafNode.cs">
+      <Link>Fluent\Twitter\ITwitterLeafNode.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\ITwitterLeafNodeAll.cs">
+      <Link>Fluent\Twitter\ITwitterLeafNodeAll.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\ITwitterLeafNodeAtom.cs">
+      <Link>Fluent\Twitter\ITwitterLeafNodeAtom.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\ITwitterLeafNodeJson.cs">
+      <Link>Fluent\Twitter\ITwitterLeafNodeJson.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\ITwitterLeafNodeRss.cs">
+      <Link>Fluent\Twitter\ITwitterLeafNodeRss.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\ITwitterLeafNodeSyndicates.cs">
+      <Link>Fluent\Twitter\ITwitterLeafNodeSyndicates.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\ITwitterLeafNodeXml.cs">
+      <Link>Fluent\Twitter\ITwitterLeafNodeXml.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\ITwitterLeafNodeXmlJson.cs">
+      <Link>Fluent\Twitter\ITwitterLeafNodeXmlJson.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\ITwitterLeafNodeXmlJsonAtom.cs">
+      <Link>Fluent\Twitter\ITwitterLeafNodeXmlJsonAtom.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\ITwitterNode.cs">
+      <Link>Fluent\Twitter\ITwitterNode.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\create\ITwitterListsCreate.cs">
+      <Link>Fluent\Twitter\Lists\Create\ITwitterListsCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\create\TwitterListsCreate.cs">
+      <Link>Fluent\Twitter\Lists\Create\TwitterListsCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\delete\ITwitterListsDelete.cs">
+      <Link>Fluent\Twitter\Lists\Delete\ITwitterListsDelete.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\delete\TwitterListsDelete.cs">
+      <Link>Fluent\Twitter\Lists\Delete\TwitterListsDelete.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\get\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Lists\Get\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\get\ITwitterListsGet.cs">
+      <Link>Fluent\Twitter\Lists\Get\ITwitterListsGet.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\get\TwitterListsGet.cs">
+      <Link>Fluent\Twitter\Lists\Get\TwitterListsGet.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\ismember\ITwitterListsIsMember.cs">
+      <Link>Fluent\Twitter\Lists\IsMember\ITwitterListsIsMember.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\ismember\TwitterListsIsMember.cs">
+      <Link>Fluent\Twitter\Lists\IsMember\TwitterListsIsMember.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\issubscriber\ITwitterListsIsMember.cs">
+      <Link>Fluent\Twitter\Lists\IsSubscriber\ITwitterListsIsMember.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\issubscriber\TwitterListsIsMember.cs">
+      <Link>Fluent\Twitter\Lists\IsSubscriber\TwitterListsIsMember.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\ITwitterLists.cs">
+      <Link>Fluent\Twitter\Lists\ITwitterLists.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\ITwitterListsExtensions.cs">
+      <Link>Fluent\Twitter\Lists\ITwitterListsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\memberships\Extensions.Cursors.cs">
+      <Link>Fluent\Twitter\Lists\Memberships\Extensions.Cursors.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\memberships\ITwitterListsMemberships.cs">
+      <Link>Fluent\Twitter\Lists\Memberships\ITwitterListsMemberships.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\memberships\TwitterListsMemberships.cs">
+      <Link>Fluent\Twitter\Lists\Memberships\TwitterListsMemberships.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\members\create\ITwitterListsMembersCreate.cs">
+      <Link>Fluent\Twitter\Lists\Members\Create\ITwitterListsMembersCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\members\create\TwitterListsMembersCreate.cs">
+      <Link>Fluent\Twitter\Lists\Members\Create\TwitterListsMembersCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\members\delete\ITwitterListMembersDelete.cs">
+      <Link>Fluent\Twitter\Lists\Members\Delete\ITwitterListMembersDelete.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\members\delete\TwitterListMembersDelete.cs">
+      <Link>Fluent\Twitter\Lists\Members\Delete\TwitterListMembersDelete.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\members\Extensions.Cursors.cs">
+      <Link>Fluent\Twitter\Lists\Members\Extensions.Cursors.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\members\ITwitterListsMembers.cs">
+      <Link>Fluent\Twitter\Lists\Members\ITwitterListsMembers.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\members\TwitterListsMembers.cs">
+      <Link>Fluent\Twitter\Lists\Members\TwitterListsMembers.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\show\ITwitterListsShow.cs">
+      <Link>Fluent\Twitter\Lists\Show\ITwitterListsShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\show\TwitterListsShow.cs">
+      <Link>Fluent\Twitter\Lists\Show\TwitterListsShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\statuses\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Lists\Statuses\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\statuses\ITwitterListsStatuses.cs">
+      <Link>Fluent\Twitter\Lists\Statuses\ITwitterListsStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\statuses\TwitterListsStatuses.cs">
+      <Link>Fluent\Twitter\Lists\Statuses\TwitterListsStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscribers\create\ITwitterListsSubscribersCreate.cs">
+      <Link>Fluent\Twitter\Lists\Subscribers\Create\ITwitterListsSubscribersCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscribers\create\TwitterListsSubscribersCreate.cs">
+      <Link>Fluent\Twitter\Lists\Subscribers\Create\TwitterListsSubscribersCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscribers\delete\ITwitterListsSubscribersDelete.cs">
+      <Link>Fluent\Twitter\Lists\Subscribers\Delete\ITwitterListsSubscribersDelete.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscribers\delete\TwitterListsSubscribersDelete.cs">
+      <Link>Fluent\Twitter\Lists\Subscribers\Delete\TwitterListsSubscribersDelete.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscribers\Extensions.Cursors.cs">
+      <Link>Fluent\Twitter\Lists\Subscribers\Extensions.Cursors.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscribers\ITwitterListsSubscribers.cs">
+      <Link>Fluent\Twitter\Lists\Subscribers\ITwitterListsSubscribers.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscribers\TwitterListsSubscribers.cs">
+      <Link>Fluent\Twitter\Lists\Subscribers\TwitterListsSubscribers.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscriptions\Extensions.Cursors.cs">
+      <Link>Fluent\Twitter\Lists\Subscriptions\Extensions.Cursors.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscriptions\ITwitterListsSubscriptions.cs">
+      <Link>Fluent\Twitter\Lists\Subscriptions\ITwitterListsSubscriptions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\subscriptions\TwitterListsSubscriptions.cs">
+      <Link>Fluent\Twitter\Lists\Subscriptions\TwitterListsSubscriptions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\TwitterLists.cs">
+      <Link>Fluent\Twitter\Lists\TwitterLists.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\update\ITwitterListsUpdate.cs">
+      <Link>Fluent\Twitter\Lists\Update\ITwitterListsUpdate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\lists\update\TwitterListsUpdate.cs">
+      <Link>Fluent\Twitter\Lists\Update\TwitterListsUpdate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\notifications\follow\ITwitterNotificationsFollow.cs">
+      <Link>Fluent\Twitter\Notifications\Follow\ITwitterNotificationsFollow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\notifications\follow\TwitterNotificationsFollow.cs">
+      <Link>Fluent\Twitter\Notifications\Follow\TwitterNotificationsFollow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\notifications\ITwitterNotifications.cs">
+      <Link>Fluent\Twitter\Notifications\ITwitterNotifications.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\notifications\ITwitterNotificationsExtensions.cs">
+      <Link>Fluent\Twitter\Notifications\ITwitterNotificationsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\notifications\leave\ITwitterNotificationsLeave.cs">
+      <Link>Fluent\Twitter\Notifications\Leave\ITwitterNotificationsLeave.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\notifications\leave\TwitterNotificationsLeave.cs">
+      <Link>Fluent\Twitter\Notifications\Leave\TwitterNotificationsLeave.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\notifications\TwitterNotifications.cs">
+      <Link>Fluent\Twitter\Notifications\TwitterNotifications.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\photos\Extensions.Photos.cs">
+      <Link>Fluent\Twitter\Photos\Extensions.Photos.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\photos\Extensions.Root.cs">
+      <Link>Fluent\Twitter\Photos\Extensions.Root.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\photos\ITwitterPhotos.cs">
+      <Link>Fluent\Twitter\Photos\ITwitterPhotos.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\photos\TwitterPhotos.cs">
+      <Link>Fluent\Twitter\Photos\TwitterPhotos.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\reportspam\ITwitterReportSpam.cs">
+      <Link>Fluent\Twitter\ReportSpam\ITwitterReportSpam.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\reportspam\ITwitterReportSpamExtensions.cs">
+      <Link>Fluent\Twitter\ReportSpam\ITwitterReportSpamExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\reportspam\reportspammer\ITwitterReportSpamReportSpammer.cs">
+      <Link>Fluent\Twitter\ReportSpam\ReportSpammer\ITwitterReportSpamReportSpammer.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\reportspam\reportspammer\TwitterReportSpamReportSpammer.cs">
+      <Link>Fluent\Twitter\ReportSpam\ReportSpammer\TwitterReportSpamReportSpammer.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\reportspam\TwitterReportSpam.cs">
+      <Link>Fluent\Twitter\ReportSpam\TwitterReportSpam.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\RetweetMode.cs">
+      <Link>Fluent\Twitter\RetweetMode.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\create\ITwitterSavedSearchesCreate.cs">
+      <Link>Fluent\Twitter\SavedSearches\Create\ITwitterSavedSearchesCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\create\TwitterSavedSearchesCreate.cs">
+      <Link>Fluent\Twitter\SavedSearches\Create\TwitterSavedSearchesCreate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\destroy\Extensions.Methods.cs">
+      <Link>Fluent\Twitter\SavedSearches\Destroy\Extensions.Methods.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\destroy\ITwitterSavedSearchesDestroy.cs">
+      <Link>Fluent\Twitter\SavedSearches\Destroy\ITwitterSavedSearchesDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\destroy\TwitterSavedSearchesDestroy.cs">
+      <Link>Fluent\Twitter\SavedSearches\Destroy\TwitterSavedSearchesDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\Extensions.Root.cs">
+      <Link>Fluent\Twitter\SavedSearches\Extensions.Root.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\ITwitterSavedSearches.cs">
+      <Link>Fluent\Twitter\SavedSearches\ITwitterSavedSearches.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\ITwitterSavedSearchesExtensions.cs">
+      <Link>Fluent\Twitter\SavedSearches\ITwitterSavedSearchesExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\received\ITwitterSavedSearchesList.cs">
+      <Link>Fluent\Twitter\SavedSearches\Received\ITwitterSavedSearchesList.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\received\TwitterSavedSearchesList.cs">
+      <Link>Fluent\Twitter\SavedSearches\Received\TwitterSavedSearchesList.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\show\ITwitterSavedSearchesShow.cs">
+      <Link>Fluent\Twitter\SavedSearches\Show\ITwitterSavedSearchesShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\show\TwitterSavedSearchesShow.cs">
+      <Link>Fluent\Twitter\SavedSearches\Show\TwitterSavedSearchesShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\savedsearches\TwitterSavedSearches.cs">
+      <Link>Fluent\Twitter\SavedSearches\TwitterSavedSearches.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\ITwitterSearch.cs">
+      <Link>Fluent\Twitter\Search\ITwitterSearch.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\ITwitterSearchExtensions.cs">
+      <Link>Fluent\Twitter\Search\ITwitterSearchExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\query\Extensions.Operators.cs">
+      <Link>Fluent\Twitter\Search\Query\Extensions.Operators.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\query\Extensions.Parameters.cs">
+      <Link>Fluent\Twitter\Search\Query\Extensions.Parameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\query\ITwitterSearchQuery.cs">
+      <Link>Fluent\Twitter\Search\Query\ITwitterSearchQuery.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\query\TwitterSearchQuery.cs">
+      <Link>Fluent\Twitter\Search\Query\TwitterSearchQuery.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\trends\Extensions.Trending.cs">
+      <Link>Fluent\Twitter\Search\Trends\Extensions.Trending.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\trends\ITwitterSearchTrends.cs">
+      <Link>Fluent\Twitter\Search\Trends\ITwitterSearchTrends.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\trends\TwitterSearchTrends.cs">
+      <Link>Fluent\Twitter\Search\Trends\TwitterSearchTrends.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\search\TwitterSearch.cs">
+      <Link>Fluent\Twitter\Search\TwitterSearch.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\services\SendPhotoService.cs">
+      <Link>Fluent\Twitter\Services\SendPhotoService.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\services\SendPhotoServiceProvider.cs">
+      <Link>Fluent\Twitter\Services\SendPhotoServiceProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\services\ShortenUrlService.cs">
+      <Link>Fluent\Twitter\Services\ShortenUrlService.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\services\ShortenUrlServiceProvider.cs">
+      <Link>Fluent\Twitter\Services\ShortenUrlServiceProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\socialgraph\Extensions.cs">
+      <Link>Fluent\Twitter\SocialGraph\Extensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\socialgraph\ids\Extensions.Methods.cs">
+      <Link>Fluent\Twitter\SocialGraph\Ids\Extensions.Methods.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\socialgraph\ids\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\SocialGraph\Ids\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\socialgraph\ids\ITwitterSocialGraphIds.cs">
+      <Link>Fluent\Twitter\SocialGraph\Ids\ITwitterSocialGraphIds.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\socialgraph\ids\TwitterSocialGraphIds.cs">
+      <Link>Fluent\Twitter\SocialGraph\Ids\TwitterSocialGraphIds.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\socialgraph\ITwitterSocialGraph.cs">
+      <Link>Fluent\Twitter\SocialGraph\ITwitterSocialGraph.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\socialgraph\ITwitterSocialGraphExtensions.cs">
+      <Link>Fluent\Twitter\SocialGraph\ITwitterSocialGraphExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\socialgraph\TwitterSocialGraph.cs">
+      <Link>Fluent\Twitter\SocialGraph\TwitterSocialGraph.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\destroy\Extensions.Methods.cs">
+      <Link>Fluent\Twitter\Statuses\Destroy\Extensions.Methods.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\destroy\ITwitterStatusDestroy.cs">
+      <Link>Fluent\Twitter\Statuses\Destroy\ITwitterStatusDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\destroy\TwitterStatusDestroy.cs">
+      <Link>Fluent\Twitter\Statuses\Destroy\TwitterStatusDestroy.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\friendstimeline\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Statuses\FriendsTimeline\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\friendstimeline\ITwitterFriendsTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\FriendsTimeline\ITwitterFriendsTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\friendstimeline\TwitterFriendsTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\FriendsTimeline\TwitterFriendsTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\hometimeline\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Statuses\HomeTimeline\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\hometimeline\ITwitterHomeTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\HomeTimeline\ITwitterHomeTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\hometimeline\TwitterHomeTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\HomeTimeline\TwitterHomeTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\ITwitterStatuses.cs">
+      <Link>Fluent\Twitter\Statuses\ITwitterStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\ITwitterStatusesExtensions.cs">
+      <Link>Fluent\Twitter\Statuses\ITwitterStatusesExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\listtimeline\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Statuses\ListTimeline\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\listtimeline\ITwitterFriendsTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\ListTimeline\ITwitterFriendsTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\listtimeline\TwitterFriendsTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\ListTimeline\TwitterFriendsTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\mentions\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Statuses\Mentions\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\mentions\ITwitterStatusMentions.cs">
+      <Link>Fluent\Twitter\Statuses\Mentions\ITwitterStatusMentions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\mentions\TwitterStatusMentions.cs">
+      <Link>Fluent\Twitter\Statuses\Mentions\TwitterStatusMentions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\publictimeline\ITwitterPublicTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\PublicTimeline\ITwitterPublicTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\publictimeline\TwitterPublicTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\PublicTimeline\TwitterPublicTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweetedbyme\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Statuses\RetweetedByMe\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweetedbyme\ITwitterRetweetedByMe.cs">
+      <Link>Fluent\Twitter\Statuses\RetweetedByMe\ITwitterRetweetedByMe.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweetedbyme\TwitterRetweetedByMe.cs">
+      <Link>Fluent\Twitter\Statuses\RetweetedByMe\TwitterRetweetedByMe.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweetedtome\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Statuses\RetweetedToMe\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweetedtome\ITwitterRetweetedToMe.cs">
+      <Link>Fluent\Twitter\Statuses\RetweetedToMe\ITwitterRetweetedToMe.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweetedtome\TwitterRetweetedToMe.cs">
+      <Link>Fluent\Twitter\Statuses\RetweetedToMe\TwitterRetweetedToMe.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweetsofme\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Statuses\RetweetsOfMe\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweetsofme\ITwitterRetweetsOfMe.cs">
+      <Link>Fluent\Twitter\Statuses\RetweetsOfMe\ITwitterRetweetsOfMe.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweetsofme\TwitterRetweetsOfMe.cs">
+      <Link>Fluent\Twitter\Statuses\RetweetsOfMe\TwitterRetweetsOfMe.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweets\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Statuses\Retweets\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweets\ITwitterRetweets.cs">
+      <Link>Fluent\Twitter\Statuses\Retweets\ITwitterRetweets.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\retweets\TwitterRetweets.cs">
+      <Link>Fluent\Twitter\Statuses\Retweets\TwitterRetweets.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\show\ITwitterStatusShow.cs">
+      <Link>Fluent\Twitter\Statuses\Show\ITwitterStatusShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\show\TwitterStatusShow.cs">
+      <Link>Fluent\Twitter\Statuses\Show\TwitterStatusShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\TwitterStatuses.cs">
+      <Link>Fluent\Twitter\Statuses\TwitterStatuses.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\update\Extensions.Messages.cs">
+      <Link>Fluent\Twitter\Statuses\Update\Extensions.Messages.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\update\ITwitterStatusUpdate.cs">
+      <Link>Fluent\Twitter\Statuses\Update\ITwitterStatusUpdate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\update\TwitterStatusUpdate.cs">
+      <Link>Fluent\Twitter\Statuses\Update\TwitterStatusUpdate.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\usertimeline\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Statuses\UserTimeline\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\usertimeline\ITwitterUserTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\UserTimeline\ITwitterUserTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\statuses\usertimeline\TwitterUserTimeline.cs">
+      <Link>Fluent\Twitter\Statuses\UserTimeline\TwitterUserTimeline.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Filter\Extensions.Options.cs">
+      <Link>Fluent\Twitter\Streaming\Filter\Extensions.Options.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Filter\Extensions.Parameters.cs">
+      <Link>Fluent\Twitter\Streaming\Filter\Extensions.Parameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Filter\ITwitterStreamingFilter.cs">
+      <Link>Fluent\Twitter\Streaming\Filter\ITwitterStreamingFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Filter\TwitterStreamingFilter.cs">
+      <Link>Fluent\Twitter\Streaming\Filter\TwitterStreamingFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Firehose\Extensions.Options.cs">
+      <Link>Fluent\Twitter\Streaming\Firehose\Extensions.Options.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Firehose\Extensions.Parameters.cs">
+      <Link>Fluent\Twitter\Streaming\Firehose\Extensions.Parameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Firehose\ITwitterStreamingFirehose.cs">
+      <Link>Fluent\Twitter\Streaming\Firehose\ITwitterStreamingFirehose.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Firehose\TwitterStreamingFirehose.cs">
+      <Link>Fluent\Twitter\Streaming\Firehose\TwitterStreamingFirehose.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\ITwitterStream.cs">
+      <Link>Fluent\Twitter\Streaming\ITwitterStream.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\ITwitterStreamExtensions.cs">
+      <Link>Fluent\Twitter\Streaming\ITwitterStreamExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Retweet\Extensions.Options.cs">
+      <Link>Fluent\Twitter\Streaming\Retweet\Extensions.Options.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Retweet\Extensions.Parameters.cs">
+      <Link>Fluent\Twitter\Streaming\Retweet\Extensions.Parameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Retweet\ITwitterStreamingRetweet.cs">
+      <Link>Fluent\Twitter\Streaming\Retweet\ITwitterStreamingRetweet.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Retweet\TwitterStreamingRetweet.cs">
+      <Link>Fluent\Twitter\Streaming\Retweet\TwitterStreamingRetweet.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Sample\Extensions.Options.cs">
+      <Link>Fluent\Twitter\Streaming\Sample\Extensions.Options.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Sample\Extensions.Parameters.cs">
+      <Link>Fluent\Twitter\Streaming\Sample\Extensions.Parameters.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Sample\ITwitterStreamingSample.cs">
+      <Link>Fluent\Twitter\Streaming\Sample\ITwitterStreamingSample.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\Sample\TwitterStreamingSample.cs">
+      <Link>Fluent\Twitter\Streaming\Sample\TwitterStreamingSample.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Streaming\TwitterStream.cs">
+      <Link>Fluent\Twitter\Streaming\TwitterStream.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Trends\Available\Extensions.Options.cs">
+      <Link>Fluent\Twitter\Trends\Available\Extensions.Options.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Trends\Available\ITwitterTrendsAvailable.cs">
+      <Link>Fluent\Twitter\Trends\Available\ITwitterTrendsAvailable.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Trends\Available\TwitterTrendsAvailable.cs">
+      <Link>Fluent\Twitter\Trends\Available\TwitterTrendsAvailable.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Trends\ITwitterTrends.cs">
+      <Link>Fluent\Twitter\Trends\ITwitterTrends.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Trends\Location\ITwitterTrendsLocation.cs">
+      <Link>Fluent\Twitter\Trends\Location\ITwitterTrendsLocation.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Trends\Location\TwitterTrendsLocation.cs">
+      <Link>Fluent\Twitter\Trends\Location\TwitterTrendsLocation.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Trends\TwitterTrends.cs">
+      <Link>Fluent\Twitter\Trends\TwitterTrends.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Trends\TwitterTrendsExtensions.cs">
+      <Link>Fluent\Twitter\Trends\TwitterTrendsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\TwitterClientInfo.cs">
+      <Link>Fluent\Twitter\TwitterClientInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\TwitterLeafNodeBase.cs">
+      <Link>Fluent\Twitter\TwitterLeafNodeBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\TwitterNodeBase.cs">
+      <Link>Fluent\Twitter\TwitterNodeBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\TwitterWebCallback.cs">
+      <Link>Fluent\Twitter\TwitterWebCallback.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\followers\Extensions.Cursors.cs">
+      <Link>Fluent\Twitter\Users\Followers\Extensions.Cursors.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\followers\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Users\Followers\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\followers\ITwitterUserFollowers.cs">
+      <Link>Fluent\Twitter\Users\Followers\ITwitterUserFollowers.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\followers\TwitterUserFollowers.cs">
+      <Link>Fluent\Twitter\Users\Followers\TwitterUserFollowers.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\friends\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Users\Friends\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\friends\ITwitterUserFriends.cs">
+      <Link>Fluent\Twitter\Users\Friends\ITwitterUserFriends.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\friends\TwitterUserFriends.cs">
+      <Link>Fluent\Twitter\Users\Friends\TwitterUserFriends.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\ITwitterUsers.cs">
+      <Link>Fluent\Twitter\Users\ITwitterUsers.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\ITwitterUsersExtensions.cs">
+      <Link>Fluent\Twitter\Users\ITwitterUsersExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Users\Search\Extensions.Paging.cs">
+      <Link>Fluent\Twitter\Users\Search\Extensions.Paging.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Users\Search\ITwitterUsersSearch.cs">
+      <Link>Fluent\Twitter\Users\Search\ITwitterUsersSearch.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Users\Search\TwitterUsersSearch.cs">
+      <Link>Fluent\Twitter\Users\Search\TwitterUsersSearch.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Users\Show\ITwitterUsersShow.cs">
+      <Link>Fluent\Twitter\Users\Show\ITwitterUsersShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Fluent\Twitter\Users\Show\TwitterUsersShow.cs">
+      <Link>Fluent\Twitter\Users\Show\TwitterUsersShow.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\fluent\twitter\users\TwitterUsers.cs">
+      <Link>Fluent\Twitter\Users\TwitterUsers.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\GeoLocation.cs">
+      <Link>Model\GeoLocation.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\IModel.cs">
+      <Link>Model\IModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\ITweetable.cs">
+      <Link>Model\ITweetable.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\OAuthToken.cs">
+      <Link>Model\OAuthToken.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\PropertyChangedBase.cs">
+      <Link>Model\PropertyChangedBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\TweetsharpResult.cs">
+      <Link>Model\TweetsharpResult.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\Converters\TwitterConverterBase.cs">
+      <Link>Model\Twitter\Converters\TwitterConverterBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\Converters\TwitterDateTimeConverter.cs">
+      <Link>Model\Twitter\Converters\TwitterDateTimeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\Converters\TwitterGeoLocationConverter.cs">
+      <Link>Model\Twitter\Converters\TwitterGeoLocationConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\Converters\TwitterWonkyBooleanConverter.cs">
+      <Link>Model\Twitter\Converters\TwitterWonkyBooleanConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\ITwitterEntity.cs">
+      <Link>Model\Twitter\ITwitterEntity.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\ITwitterModel.cs">
+      <Link>Model\Twitter\ITwitterModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterDateFormat.cs">
+      <Link>Model\Twitter\TwitterDateFormat.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterDateTime.cs">
+      <Link>Model\Twitter\TwitterDateTime.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterDeliveryDevice.cs">
+      <Link>Model\Twitter\TwitterDeliveryDevice.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterDirectMessage.cs">
+      <Link>Model\Twitter\TwitterDirectMessage.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterError.cs">
+      <Link>Model\Twitter\TwitterError.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterFriend.cs">
+      <Link>Model\Twitter\TwitterFriend.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterFriendship.cs">
+      <Link>Model\Twitter\TwitterFriendship.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterList.cs">
+      <Link>Model\Twitter\TwitterList.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterLocalTrend.cs">
+      <Link>Model\Twitter\TwitterLocalTrend.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterLocalTrends.cs">
+      <Link>Model\Twitter\TwitterLocalTrends.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterRateLimitStatus.cs">
+      <Link>Model\Twitter\TwitterRateLimitStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterRelationship.cs">
+      <Link>Model\Twitter\TwitterRelationship.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterResult.cs">
+      <Link>Model\Twitter\TwitterResult.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterSavedSearch.cs">
+      <Link>Model\Twitter\TwitterSavedSearch.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterSearchResult.cs">
+      <Link>Model\Twitter\TwitterSearchResult.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterSearchStatus.cs">
+      <Link>Model\Twitter\TwitterSearchStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterSearchTrend.cs">
+      <Link>Model\Twitter\TwitterSearchTrend.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterSearchTrends.cs">
+      <Link>Model\Twitter\TwitterSearchTrends.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterStatus.cs">
+      <Link>Model\Twitter\TwitterStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\Twitter\TwitterUser.cs">
+      <Link>Model\Twitter\TwitterUser.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\WhereOnEarthLocation.cs">
+      <Link>Model\WhereOnEarthLocation.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\Model\WhereOnEarthPlaceType.cs">
+      <Link>Model\WhereOnEarthPlaceType.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\TweetSharpException.cs">
+      <Link>TweetSharpException.cs</Link>
+    </Compile>
+    <Compile Include="..\Dimebrain.TweetSharp\TwitterException.cs">
+      <Link>TwitterException.cs</Link>
+    </Compile>
+    <Compile Include="Core\Web\OAuthCredentials.cs" />
+    <Compile Include="HttpUtility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

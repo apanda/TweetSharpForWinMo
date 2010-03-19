@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Messages/Delete
+END
+IYammerMessageDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Messages/Delete/IYammerMessageDelete.cs
+END
+YammerMessageDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Messages/Delete/YammerMessageDelete.cs
+END

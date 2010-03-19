@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 50
+Bin
+obj
+*.pidb
+TweetSharp.Silverlight.csproj.user
+
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Search/Query
+END
+Extensions.Operators.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Search/Query/Extensions.Operators.cs
+END
+TwitterSearchQuery.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Search/Query/TwitterSearchQuery.cs
+END
+Extensions.Parameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/628/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Search/Query/Extensions.Parameters.cs
+END
+ITwitterSearchQuery.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Search/Query/ITwitterSearchQuery.cs
+END

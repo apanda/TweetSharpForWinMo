@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Statuses/Destroy
+END
+TwitterStatusDestroy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Statuses/Destroy/TwitterStatusDestroy.cs
+END
+Extensions.Methods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Statuses/Destroy/Extensions.Methods.cs
+END
+ITwitterStatusDestroy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Statuses/Destroy/ITwitterStatusDestroy.cs
+END

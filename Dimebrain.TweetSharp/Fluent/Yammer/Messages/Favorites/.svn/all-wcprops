@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/633/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Messages/Favorites
+END
+IYammerFavoriteMessages.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Messages/Favorites/IYammerFavoriteMessages.cs
+END
+IYammerFavoriteMessagesExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Messages/Favorites/IYammerFavoriteMessagesExtensions.cs
+END
+YammerFavoriteMessages.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Messages/Favorites/YammerFavoriteMessages.cs
+END
+Extensions.Paging.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Yammer/Messages/Favorites/Extensions.Paging.cs
+END

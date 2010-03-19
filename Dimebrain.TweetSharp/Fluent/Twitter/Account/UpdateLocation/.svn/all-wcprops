@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Account/UpdateLocation
+END
+TwitterAccountUpdateLocation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Account/UpdateLocation/TwitterAccountUpdateLocation.cs
+END
+ITwitterAccountUpdateLocation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Account/UpdateLocation/ITwitterAccountUpdateLocation.cs
+END

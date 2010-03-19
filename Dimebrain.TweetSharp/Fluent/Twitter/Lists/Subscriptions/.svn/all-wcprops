@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Lists/Subscriptions
+END
+Extensions.Cursors.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Lists/Subscriptions/Extensions.Cursors.cs
+END
+ITwitterListsSubscriptions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Lists/Subscriptions/ITwitterListsSubscriptions.cs
+END
+TwitterListsSubscriptions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/626/trunk/src/net35/Dimebrain.TweetSharp/Fluent/Twitter/Lists/Subscriptions/TwitterListsSubscriptions.cs
+END

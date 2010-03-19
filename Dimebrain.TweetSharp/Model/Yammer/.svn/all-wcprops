@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/639/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer
+END
+YammerObjectBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerObjectBase.cs
+END
+YammerMessageBody.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerMessageBody.cs
+END
+YammerPreviousCompany.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerPreviousCompany.cs
+END
+YammerExternalUrl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerExternalUrl.cs
+END
+YammerThread.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerThread.cs
+END
+IYammerModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/IYammerModel.cs
+END
+YammerGuideReference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerGuideReference.cs
+END
+YammerUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerUser.cs
+END
+YammerResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerResult.cs
+END
+YammerImInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerImInfo.cs
+END
+YammerBot.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerBot.cs
+END
+YammerRelationships.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerRelationships.cs
+END
+YammerThreadStats.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerThreadStats.cs
+END
+YammerThreadReference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerThreadReference.cs
+END
+YammerMessageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerMessageType.cs
+END
+YammerSearchResults.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerSearchResults.cs
+END
+YammerAttachment.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerAttachment.cs
+END
+YammerAttachmentFile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerAttachmentFile.cs
+END
+YammerError.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerError.cs
+END
+YammerNetwork.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerNetwork.cs
+END
+YammerAttachmentImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerAttachmentImage.cs
+END
+YammerAutoCompleteSuggestions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerAutoCompleteSuggestions.cs
+END
+YammerEmailAddress.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerEmailAddress.cs
+END
+YammerMessageReference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerMessageReference.cs
+END
+YammerContactInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerContactInfo.cs
+END
+YammerSuggestions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerSuggestions.cs
+END
+SubscriptionType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/639/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/SubscriptionType.cs
+END
+YammerGroupStats.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerGroupStats.cs
+END
+YammerTag.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerTag.cs
+END
+YammerNetworkDomain.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerNetworkDomain.cs
+END
+YammerPhoneNumber.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerPhoneNumber.cs
+END
+YammerSenderType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerSenderType.cs
+END
+YammerAttachmentContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerAttachmentContent.cs
+END
+YammerSubscription.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerSubscription.cs
+END
+YammerMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerMessage.cs
+END
+YammerSchool.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerSchool.cs
+END
+YammerTagReference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerTagReference.cs
+END
+YammerAttachmentType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerAttachmentType.cs
+END
+YammerGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerGroup.cs
+END
+YammerUserReference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerUserReference.cs
+END
+YammerUserStats.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerUserStats.cs
+END
+YammerResponseMetadata.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/636/trunk/src/net35/Dimebrain.TweetSharp/Model/Yammer/YammerResponseMetadata.cs
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Caching
+END
+IClientCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Caching/IClientCache.cs
+END
+CacheFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Caching/CacheFactory.cs
+END
+_Caching.cd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Caching/_Caching.cd
+END
+SimpleCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Caching/SimpleCache.cs
+END
+AspNetCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Caching/AspNetCache.cs
+END
+IWebCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/625/trunk/src/net35/Dimebrain.TweetSharp/Core/Caching/IWebCache.cs
+END
